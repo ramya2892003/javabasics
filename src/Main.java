@@ -2,13 +2,8 @@ import java.util.Scanner;
 import java.util.*;
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-
-//take an array as input from user search for a given number x and print the index at which it occurs??
-
-public class Main {
-    public static void main(String[] args) {
+//public class Main {
+//    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        int size = sc.nextInt();~
 //        int[] element = new int[size];
@@ -115,38 +110,56 @@ public class Main {
 
 
 //        2D ARRAYS
+//
+//        Scanner sc=new Scanner(System.in);
+//        int rows=sc.nextInt();
+//        int col=sc.nextInt();
+//
+//        int[][] array=new int[rows][col];
+//
+//        for(int i=0;i<rows;i++){
+//            for(int j=0;j<col;j++){
+//                array[i][j]=sc.nextInt();
+//            }
+//        }
+//
+////        to search x
+//        System.out.println("enter x ");
+//        int x=sc.nextInt();
+//
+//        for (int i=0;i<rows;i++){
+//            for (int j=0;j<col;j++)
+//            {
+//                if(array[i][j]==x){
+//                    System.out.println("element present at ("+i+"," +j+")");
+//
+//                }
+//            }
+//        }
+////        output
+//        for(int i=0;i<rows;i++){
+//            for(int j=0;j<col;j++){
+//                System.out.print(array[i][j] +" ");
+//            }
+//            System.out.println();
+//        }
+// }
+//    }
 
-        Scanner sc=new Scanner(System.in);
-        int rows=sc.nextInt();
-        int col=sc.nextInt();
+class Pen {
+    String color;
+    String type;
 
-        int[][] array=new int[rows][col];
 
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<col;j++){
-                array[i][j]=sc.nextInt();
-            }
-        }
-
-//        to search x
-        System.out.println("enter x ");
-        int x=sc.nextInt();
-
-        for (int i=0;i<rows;i++){
-            for (int j=0;j<col;j++)
-            {
-                if(array[i][j]==x){
-                    System.out.println("element present at ("+i+"," +j+")");
-                    
-                }
-            }
-        }
-//        output
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<col;j++){
-                System.out.print(array[i][j] +" ");
-            }
-            System.out.println();
-        }
- }
+    public void function() {
+        System.out.println(this.color);
     }
+}
+public class Main {
+    public static void main(String[] args) {
+        Pen pen1=new Pen();
+        pen1.color="red";
+        pen1.function();
+
+    }
+}
