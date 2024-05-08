@@ -150,26 +150,26 @@ import java.util.Arrays;
 // }
 // }
 
-class Solution {
-    static int dataTypeSize(String str) {
-        int bytes = 0;
-        switch (str) {
-            case "Character":
-                bytes = 1;
-                break;
-            case "Integer":
-                bytes = 4;
-                break;
-            case "Long":
-                bytes = 8;
-                break;
-            case "Float":
-                bytes = 4;
-                break;
-            case "Double":
-                bytes = 8;
+// class Solution {
+//     static int dataTypeSize(String str) {
+//         int bytes = 0;
+//         switch (str) {
+//             case "Character":
+//                 bytes = 1;
+//                 break;
+//             case "Integer":
+//                 bytes = 4;
+//                 break;
+//             case "Long":
+//                 bytes = 8;
+//                 break;
+//             case "Float":
+//                 bytes = 4;
+//                 break;
+//             case "Double":
+//                 bytes = 8;
 
-        }
-        return bytes;
-    }
-}
+//         }
+//         return bytes;
+//     }
+// }
