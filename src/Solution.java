@@ -151,68 +151,68 @@ import java.util.Arrays;
 // }
 
 // class Solution {
-//     static int dataTypeSize(String str) {
-//         int bytes = 0;
-//         switch (str) {
-//             case "Character":
-//                 bytes = 1;
-//                 break;
-//             case "Integer":
-//                 bytes = 4;
-//                 break;
-//             case "Long":
-//                 bytes = 8;
-//                 break;
-//             case "Float":
-//                 bytes = 4;
-//                 break;
-//             case "Double":
-//                 bytes = 8;
+// static int dataTypeSize(String str) {
+// int bytes = 0;
+// switch (str) {
+// case "Character":
+// bytes = 1;
+// break;
+// case "Integer":
+// bytes = 4;
+// break;
+// case "Long":
+// bytes = 8;
+// break;
+// case "Float":
+// bytes = 4;
+// break;
+// case "Double":
+// bytes = 8;
 
-//         }
-//         return bytes;
-//     }
+// }
+// return bytes;
+// }
 // }
 
 // class Solution {
-//     public static String compareNM(int n, int m) {
-//         if (n < m) {
-//             return "lesser";
-//         } else if (n > m) {
-//             return "greater";
-//         } else {
-//             return "equal";
-//         }
-//     }
+// public static String compareNM(int n, int m) {
+// if (n < m) {
+// return "lesser";
+// } else if (n > m) {
+// return "greater";
+// } else {
+// return "equal";
+// }
+// }
 // }
 
-import java.lang.*;
-import java.util.*;
+// import java.lang.*;
+// import java.util.*;
 
-public class Solution {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        char n = sc.next().charAt(0);
-        int a = n;
-        if (a >= 65 && a <= 90) {
-            System.out.print("1");
-        } else if (a >= 97 && a <= 122) {
-            System.out.print("0");
-        } else {
-            System.out.print("-1");
-        }
+// public class Solution {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// char n = sc.next().charAt(0);
+// int a = n;
+// if (a >= 65 && a <= 90) {
+// System.out.print("1");
+// } else if (a >= 97 && a <= 122) {
+// System.out.print("0");
+// } else {
+// System.out.print("-1");
+// }
 
-    }}
+// }}
 
-    OR
+// OR
 
-char c=sc.next().charAt(0);if(c>='a'&&c<='z')
-{
-sop("0")
-}
+// char c=sc.next().charAt(0);if(c>='a'&&c<='z')
+// {
+// sop("0")
+// }
 
-    else if(c>='A'&&c<='Z')
-{
-sop("1")
-}else
-{sop("-1")}
+// else if(c>='A'&&c<='Z')
+// {
+// sop("1")
+// }else
+// {sop("-1")}
