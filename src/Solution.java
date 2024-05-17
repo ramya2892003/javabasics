@@ -216,3 +216,25 @@ import java.util.Arrays;
 // sop("1")
 // }else
 // {sop("-1")}
+
+// public class cwh01class {
+//
+// public static void main(String[] args) {
+// Scanner sc=new Scanner(System.in);
+// System.out.println("enter subj1 marks");
+// int a=sc.nextInt();
+//
+// System.out.println("enter subj2 marks");
+// int b=sc.nextInt();
+//
+// System.out.println("enter subj3 marks");
+// int c=sc.nextInt();
+//
+// System.out.println("enter subj4 marks");
+// int d=sc.nextInt();
+//
+// int per=(((a+b+c+d)/400)*100);
+// System.out.println("total percentage" +per);
+//
+// }
+// }
