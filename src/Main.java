@@ -240,12 +240,12 @@ public class Main {
         // }
 
         // cgpa calculator
-        int subj1 = 45;
-        int subj2 = 95;
-        int subj3 = 48;
-        float sum = subj1 + subj2 + subj3;
-        float avg = sum / 3;
-        float cgpa = avg / 10;
-        System.out.println(cgpa);
-    }
-}
+//         int subj1 = 45;
+//         int subj2 = 95;
+//         int subj3 = 48;
+//         float sum = subj1 + subj2 + subj3;
+//         float avg = sum / 3;
+//         float cgpa = avg / 10;
+//         System.out.println(cgpa);
+//     }
+// }
